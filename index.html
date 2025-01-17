@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Shared 3D Scene</title>
+  <style>
+    body { margin: 0; }
+    canvas { width: 100vw; height: 100vh; display: block; }
+    #connection-ui {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="connection-ui">
+    <div id="connection-status">Status: Not Connected</div>
+    <input type="text" id="peer-id" placeholder="Enter peer ID to connect">
+    <button id="connect-btn">Connect</button>
+    <div id="my-id"></div>
+  </div>
+  <script type="module" src="app.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"4c6229722a6346bc8eb5cb0e5eae5d41","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
