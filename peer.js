@@ -1,4 +1,4 @@
-import { Peer } from 'https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js';
+import 'https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js';
 
 export class PeerConnection {
   constructor(onMessage) {
